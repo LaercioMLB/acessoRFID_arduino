@@ -400,7 +400,7 @@ void deleteID( byte a[] ) {
     slot = findIDSLOT( a );   // Figure out the slot number of the card to delete
     start = (slot * 4) + 2;
     looping = ((num - slot) * 4);
-    num--;      // Decrement the counter by one
+    num--;      // Decrement the counter by one *
     EEPROM.write( 0, num );   // Write the new count to the counter
     for ( j = 0; j < looping; j++ ) {         // Loop the card shift times
       EEPROM.write( start + j, EEPROM.read(start + 4 + j));   // Shift the array values to 4 places earlier in the EEPROM
