@@ -1,4 +1,4 @@
-[! [BEM VINDO](https://i.imgur.com/yYFkdUL.jpg)
+![Bemvindo](https://i.imgur.com/yYFkdUL.jpg)
 
 > **OBS:** Com pouco de conhecimento da para alterar o código tranquilamente para adaptar outro sensor.
 
